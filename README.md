@@ -1,1 +1,1 @@
-# Miming
+# Mining
