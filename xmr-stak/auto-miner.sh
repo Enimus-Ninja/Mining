@@ -28,7 +28,7 @@ cat > /lib/systemd/system/masaruk-neborak.service  << EOF
 Description=masaruk-neborak 
 After=network.target 
 [Service] 
-ExecStart=/home/ubuntu/xmr-stak/bin/xmr-stak -c /home/ubuntu/xmr-stak/bin/config.txt --url "pool.masaricoin.com:5555" --user "wallet" --pass "bla@bla.com" --currency "masari"
+ExecStart=/home/ubuntu/xmr-stak/bin/xmr-stak -c /home/ubuntu/xmr-stak/bin/config.txt --url "pool.masaricoin.com:5555" --user "5oVSmSwE5utZAAx1eU5yrb1j6mZcrKKa9Ha48BYQqP2qQjNKWaxB1xv3Pq2S3CRSosjKJCzF1Q1kwViyYzGW96UGNKa98s9" --pass "enimus@enimus.com" --currency "masari"
 User=root 
 [Install] 
 WantedBy=multi-user.target 
